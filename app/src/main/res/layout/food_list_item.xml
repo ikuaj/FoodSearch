@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/recipeimage"
+        android:layout_width="165dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:contentDescription="banner"
+        app:srcCompat="@drawable/fuud" />
+
+    <TextView
+        android:id="@+id/recipename"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/ingridiens"
+        android:layout_width="119dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:text="TextView" />
+
+
+
+
+</RelativeLayout>
